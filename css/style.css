@@ -1,3 +1,5 @@
+
+
 .logo img {
     width: 100px; /* Установите желаемую ширину логотипа */
     height: auto; /* Позволяет сохранять пропорции изображения */
@@ -602,6 +604,7 @@ padding: 4px 20px;
     border: none;
     background-color: transparent;
     padding: 0;
+    justify-content: center;
 }
 
 .tabs__btn-item--active{
@@ -611,11 +614,24 @@ padding: 4px 20px;
 .tabs__content-item{
     display: none;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px 40px;
+    gap: 10px 20px;
+    justify-content: center;
 }
 
 .tabs__content-item.tabs__content-item--active{
     display: grid;
+}
+
+
+.plant-card{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:#f8f8f8;
+    background-color: #41814c;
+border-radius: 20px;
+padding: 10px;
 }
 
 .card{
@@ -623,7 +639,7 @@ padding: 4px 20px;
 }
 
 .card__img{
-    width: 270;
+    width: 300px;
     height: 170px;
     display: block;
 }
@@ -642,18 +658,199 @@ padding: 4px 20px;
 }
 
 .card__text{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
+}
+
+.card__text9{
+    margin-top: 50px;
+    margin-bottom: 10px;
+
 }
 
 .card__price{
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
+    padding-top: 23px;
 }
+
+.card__price1{
+    padding-top: 49px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 23px;
+    
+}
+
+.card__price3{
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 23px;
+}
+
+.card__price4{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price5{
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price6{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price7{
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price8{
+    padding-top: 52px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price9{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price10{
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price11{
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price12{
+    padding-top: 52px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price13{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price14{
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__price15{
+    padding-top: 52px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.card__p1{
+    padding-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p3{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p4{
+    padding-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p5{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p6{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p7{
+    padding-top: 25px;
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p8{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p9{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card__p10{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 
 .card__link{
     display: block;
-    color: #4c6d4b;
+    color: #7bb0ff;
     border: 1px solid #000000;
     border-top: 0;
 }
