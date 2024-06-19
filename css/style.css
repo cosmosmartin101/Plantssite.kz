@@ -101,6 +101,14 @@ right: 0;
     color: #0066ff;
 }
 
+.lan__list{
+      display: flex;
+    gap: 35px;
+    text-transform: uppercase;
+    justify-content: right;
+}
+
+
 .footer{
 background-color: #151515;
 padding: 50px 0 32px;
